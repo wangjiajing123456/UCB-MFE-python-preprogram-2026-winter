@@ -10,9 +10,9 @@ With the instructor's permission, I am using OpenAI Codex instead of Claude Code
 
 ## Files
 - git.txt contains my name and favorite movie, Project Hail Mary.
-- AGENTS.md contains project instructions for Codex.
 - CODEX.md describes my submission and setup.
-- uv.txt will record the commands used for the uv exercises.
+- uv.txt records the package-management commands and the installed requests version.
+- game_of_life.py implements evolve and includes both supplied test cases.
 
 ## Setup
 Run `codex --version` to check the CLI version.
