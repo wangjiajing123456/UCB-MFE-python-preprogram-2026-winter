@@ -18,4 +18,4 @@ Test pre-order/ in-order/ post-order by both recursive method and iterative meth
 
 Return the new lists of node values.
 
-The iterative traversals use a stack for pending nodes. Pre-order pushes the right child first. In-order saves nodes while moving left. Post-order marks a node for recording after both children.
+The iterative traversals use a stack for pending nodes. Pre-order pushes the right child first so the left child is popped first. For a root `B` with left child `A` and right child `C`, the stack becomes `[C, A]` after visiting `B`, and the result is `["B", "A", "C"]`. In-order saves nodes while moving left. Post-order marks a node for recording after both children.
